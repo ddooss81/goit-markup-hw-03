@@ -1,5 +1,9 @@
 li {list-style-type: none;}
 
+img {
+    display: block;
+}
+
 body {
         font-family: "Roboto", sans-serif;
         /*font-size: 16px;*/

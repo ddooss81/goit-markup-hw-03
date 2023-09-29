@@ -14,6 +14,22 @@ body {
         background-color: #FFFFFF
         }
 
+
+header  {
+        border-bottom: 1px solid #e7e9fc;
+}
+    .heder_div {
+        display: flex;
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px 0 15px;
+
+    }
+    .header_nav {
+        display: flex;
+        align-items: center;
+    }
+
     .logo_start {
         font-family: "Raleway", sans-serif;
         font-size: 18px;
@@ -21,9 +37,9 @@ body {
         line-height: 1.17;
         letter-spacing: 0.03em;
         color: #4d5ae5; 
-        /*list-style-type: none;*/
         text-decoration: none;
         text-transform: uppercase;
+        margin-right: 76px;
     }
     
     .logo_end {
@@ -44,6 +60,8 @@ body {
         letter-spacing: 0.02em;
         /*list-style-type: none;*/
         text-decoration: none;
+        display: flex;
+        gap: 40px;
         }    
 
     .nav_list:hover, .nav_list:focus {

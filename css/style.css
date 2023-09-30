@@ -26,6 +26,11 @@ header  {
         display: flex;
         align-items: center;
     }
+    .header_menu {
+        display: flex;
+        gap: 40px;
+
+    }
 
     .logo_start {
         font-family: "Raleway", sans-serif;

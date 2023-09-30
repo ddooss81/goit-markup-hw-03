@@ -137,7 +137,7 @@ header  {
         gap: 24px;
     }
 
-        section_second_title:first-child{
+    .Second_section_list:first-child{
             width: calc((100% - 72px) / 4);
         }
     
@@ -150,13 +150,13 @@ header  {
     }
 
     .paragr_section_two {
-        /*font-size: 16px;*/
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
     }
 
     .section_second_title {
+        margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;

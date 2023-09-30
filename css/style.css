@@ -128,15 +128,19 @@ header  {
             background-color: #404BBF;
         }    
 
-
-
-    .section_second {
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        /*letter-spacing: 0.02em;*/
-        color: #2e2f42;
+    .Second section {
+        padding: 120px 0;
     }
+    
+    .visually-hidden {
+            clip: rect(0 0 0 0);
+            clip-path: inset(50%);
+            height: 1px;
+            overflow: hidden;
+            position: absolute;
+            white-space: nowrap;
+            width: 1px;
+        }
 
     .paragr_section_two {
         /*font-size: 16px;*/

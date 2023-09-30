@@ -137,7 +137,7 @@ header  {
         gap: 24px;
     }
 
-        .second_section_li:first-child{
+        .second_section_li{
             flex-basis: calc((100% - 72px) / 4)
         }
         

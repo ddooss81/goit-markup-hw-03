@@ -137,7 +137,7 @@ header  {
         gap: 24px;
     }
 
-    .second_section_list:first-child {
+        .second_section_list_first {
             width: calc((100% - 72px) / 4);
         }
     

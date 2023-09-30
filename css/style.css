@@ -137,10 +137,13 @@ header  {
         gap: 24px;
     }
 
-        .second_section_list li:first-child {
+        .second_section_list_first {
             width: calc((100% - 72px) / 4);
         }
-    
+        .second_section_list_first:not(:first-child){
+            width: 0;
+        }
+
     .visually-hidden {
         position: absolute;
         width: 1px;

@@ -128,19 +128,20 @@ header  {
             background-color: #404BBF;
         }    
 
-    .Second section {
+    .Second_section {
         padding: 120px 0;
     }
     
     .visually-hidden {
-            clip: rect(0 0 0 0);
-            clip-path: inset(50%);
-            height: 1px;
-            overflow: hidden;
-            position: absolute;
-            white-space: nowrap;
-            width: 1px;
-        }
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        border: 0;
+        clip: rect(0 0 0 0);
+    }   
 
     .paragr_section_two {
         /*font-size: 16px;*/

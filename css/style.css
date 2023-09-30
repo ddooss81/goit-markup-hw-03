@@ -131,17 +131,23 @@ header  {
     .Second_section {
         padding: 120px 0;
     }
+
+    .Second_section_list{
+        display: flex;
+        gap: 24px;
+    }
+
+        section_second_title:first-child{
+            width: calc((100% - 72px) / 4);
+        }
     
     .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
         margin: -1px;
-        padding: 0;
-        overflow: hidden;
-        border: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
         clip: rect(0 0 0 0);
-    }   
+        overflow: hidden;
+    }
 
     .paragr_section_two {
         /*font-size: 16px;*/

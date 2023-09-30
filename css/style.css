@@ -88,6 +88,7 @@ header  {
     
     
     .section_first {
+        padding: 188px 0;
         background-color: #2e2f42;
         letter-spacing: 0.02em;
         /*font-Size: 56px;
@@ -98,24 +99,29 @@ header  {
     }
 
     .section_h_first {
-        /*font-family: Roboto; */
+        max-width: 496px;
         color: #ffffff;
         font-weight: 700; 
         font-Size: 56px; 
         letter-spacing: 0.02em;
         line-Height: 1.07;
         text-align: center;
-        /*background-color: #2e2f42;*/
         }
 
     .class_botoom {
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        
         background-color: #4D5AE5;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
         cursor: pointer;
-        /*font-size: 16px;*/
     }
     
     .class_botoom:hover, .class_botoom:focus {

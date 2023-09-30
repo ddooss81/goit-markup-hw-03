@@ -6,10 +6,7 @@ img {
 
 body {
         font-family: "Roboto", sans-serif;
-        /*font-size: 16px;*/
-        /* font-weight: 400; */
         line-height: 14.906832%;
-        /*letter-spacing: 0.02em;*/
         color: rgba(67, 68, 85, 1);
         background-color: #FFFFFF
         }
@@ -52,16 +49,17 @@ header  {
     }
 
     .nav_list {
+        display: flex;
+        gap: 40px;
+        padding: 24px 0;
         color: #2e2f42;
         background-color: rgba(255, 255, 255, 1);
-        /*font-size: 16px;*/
         line-height: 1.5;
         font-weight: 500;
         letter-spacing: 0.02em;
-        /*list-style-type: none;*/
         text-decoration: none;
         display: flex;
-        gap: 40px;
+        gap: 40px
         }    
 
     .nav_list:hover, .nav_list:focus {
@@ -69,9 +67,8 @@ header  {
         }
 
     .address_style {
-            /*font-family: Roboto;*/
-            /*font-size: 16px;*/
-            /* font-weight: 400; */
+            display: flex;
+            gap: 40px;
             line-height: 24px;
             letter-spacing: 0.02em;
             color: rgba(67, 68, 85, 1);

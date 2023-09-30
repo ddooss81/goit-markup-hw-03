@@ -128,16 +128,16 @@ header  {
             background-color: #404BBF;
         }    
 
-    .Second_section {
+    .second_section {
         padding: 120px 0;
     }
 
-    .Second_section_list{
+    .second_section_list{
         display: flex;
         gap: 24px;
     }
 
-    .Second_section_list:first-child{
+    .second_section_list:first-child{
             width: calc((100% - 72px) / 4);
         }
     

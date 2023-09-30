@@ -54,20 +54,18 @@ header  {
     }
 
     .nav_list {
-                display: flex;
-                    gap: 40px;
-        display: flex;
-        gap: 40px;
-        padding: 24px 0;
-        color: #2e2f42;
-        background-color: rgba(255, 255, 255, 1);
-        line-height: 1.5;
-        font-weight: 500;
-        letter-spacing: 0.02em;
-        text-decoration: none;
-        display: flex;
-        gap: 40px
-        }    
+            display: flex;
+            gap: 40px;
+            padding: 24px 0;
+            color: #2e2f42;
+            background-color: rgba(255, 255, 255, 1);
+            line-height: 1.5;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+            display: flex;
+            gap: 40px
+        } 
 
     .nav_list:hover, .nav_list:focus {
             color: #404bbf
@@ -79,7 +77,6 @@ header  {
             line-height: 24px;
             letter-spacing: 0.02em;
             color: rgba(67, 68, 85, 1);
-            /*list-style-type: none;*/
             text-decoration: none;
             font-style: normal;
     }
@@ -219,22 +216,6 @@ header  {
         .logo_footer_end{
             color: #f4f4fd;
         }
-        
-
-
-    /*.section_second {
-        line-height: 1.2;
-    }
-
-    .section_h_second {
-        font-family: Roboto;
-        font-weight: 700;
-        font-Size: 36px;
-        /*letter-spacing: 0.02em;
-        line-height: 1.2;
-        text-align: center;
-     
-    }*/
 
     .section_third {
         background-color: #F4F4FD;

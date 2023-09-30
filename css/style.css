@@ -137,8 +137,8 @@ header  {
         gap: 24px;
     }
 
-        .second_section_list:first-child {
-            flex-basis: calc((100% - 3 * 24px) / 4);
+        .second_section_list li:first-child {
+            width: calc((100% - 72px) / 4);
         }
     
     .visually-hidden {

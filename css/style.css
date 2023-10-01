@@ -195,15 +195,24 @@ header  {
     }
     .section_third_li {
         background-color: #FFFFFF;
+        width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
     }
 
+    .staff{
+        padding: 32px 0;
+
+    }
     .section_third_p {
+        text-align: center;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
     }
     .team_list {
+        text-align: center;
+        margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;

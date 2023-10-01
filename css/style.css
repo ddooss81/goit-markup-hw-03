@@ -135,6 +135,7 @@ header  {
     .second_section_list{
         display: flex;
         gap: 24px;
+        width: calc((100% - 72px) / 4);
     }
         .second_section_li:first-child {
             width: calc((100% - 72px) / 4);

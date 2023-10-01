@@ -51,10 +51,12 @@ header  {
         width: 1158px;
         margin: 0 auto;
         padding: 0 15px 0 15px;
+        
 
     }
     .container_header{
         display: flex;
+        align-items: center;
     }
 
     .header_nav {
@@ -105,9 +107,14 @@ header  {
     .nav_list:hover, .nav_list:focus {
             color: #404bbf
         }
+    address{
+        margin-right: auto;   
+        margin-left: auto;}
 
     .address_style {
             display: flex;
+            margin-right: auto;
+            /*margin-left: auto;*/
             gap: 40px;
             line-height: 24px;
             letter-spacing: 0.02em;
@@ -126,14 +133,11 @@ header  {
         padding: 188px 0;
         background-color: #2e2f42;
         letter-spacing: 0.02em;
-        /*font-Size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #ffffff;*/
     }
 
     .section_h_first {
+        margin-left: auto;
+        margin-right: auto;
         max-width: 496px;
         color: #ffffff;
         font-weight: 700; 
@@ -144,6 +148,9 @@ header  {
         }
 
     .class_botoom {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
         display: block;
         min-width: 169px;
         height: 56px;
@@ -212,7 +219,6 @@ header  {
 
     .section_third_title {
         margin-bottom: 72px;
-
         background-color: #F4F4FD;
         font-size: 36px;
         line-height: 1.11;
@@ -263,12 +269,15 @@ header  {
 
         .section_fourth_h_fourth {
             margin-bottom: 72px;
-
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
             letter-spacing: 0.02em;
             color: #2e2f42;
+            text-align: center;
+            text-transform: capitalize;
         }
 
         .section_fourth_list{

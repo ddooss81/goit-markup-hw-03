@@ -263,7 +263,6 @@ header  {
 
         }
         .section_fourth_p {
-        /*font-size: 16px;*/
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
@@ -294,27 +293,30 @@ header  {
 
     }
     .section_h_third {
-        /*font-family: Roboto;*/
         font-weight: 500;
         line-height: 36px;
-        /*letter-spacing: 0.02em;*/
         line-height: 1.11;
         color: #2e2f42;
         background-color: #F4F4FD;
         text-transform: capitalize;
         text-align: center
     }
-    */ 
-    
+     
+    .foot {
+        padding: 100px 0;
+
+    }
     .logo_footer_start {
+            display: inline-block;
+            margin-bottom: 16px;
+
             font-family: Raleway;
             font-size: 18px;
             font-weight: 700;
             line-height: 21px;
             letter-spacing: 0.03em;
             color: rgba(77, 90, 229, 1);
-            /*list-style-type: none;*/
-            text-decoration: none
+            text-decoration: none;
     }
     
     .logo_footer_end {
@@ -326,6 +328,8 @@ header  {
     }
     
         .footer_p {
+            max-width: 264px;
+            
             line-height: 1.5;
             color: #F4F4FD;
             letter-spacing: 0.02em;

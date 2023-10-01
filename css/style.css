@@ -135,22 +135,12 @@ header  {
     .second_section_list{
         display: flex;
         gap: 24px;
+    }
+
+    .second_section_li {
         width: calc((100% - 72px) / 4);
         flex-basis: calc((100% - 3 * 24px) / 4);
     }
-        .second_section_li:first-child {
-            display: flex;
-            width: calc((100% - 72px) / 4);
-            flex-basis: calc((100% - 3 * 24px) / 4);
-                }
-
-        .second_section_li{
-            display: flex;
-            flex-basis: calc((100% - 72px) / 4);
-            flex-basis: calc((100% - 3 * 24px) / 4);
-        }
-        
-        
 
     .visually-hidden {
         position: absolute;

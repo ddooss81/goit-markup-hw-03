@@ -24,6 +24,9 @@ header  {
     }
     .container_header{
         display: flex;
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px 0 15px;
     }
 
     .header_nav {

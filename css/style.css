@@ -321,6 +321,7 @@ header  {
     
     .logo_footer_end {
             color: rgba(244, 244, 253, 1);
+            display: inline-block;
     }
     
     footer {
@@ -329,7 +330,7 @@ header  {
     
         .footer_p {
             max-width: 264px;
-            
+
             line-height: 1.5;
             color: #F4F4FD;
             letter-spacing: 0.02em;

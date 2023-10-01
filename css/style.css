@@ -307,7 +307,7 @@ header  {
 
     }
     .logo_footer_start {
-            /*display: inline-block;*/
+            display: inline-block;
             margin-bottom: 16px;
 
             font-family: Raleway;
@@ -321,10 +321,10 @@ header  {
     
     .logo_footer_end {
             color: rgba(244, 244, 253, 1);
-            /*display: inline-block;*/
+            display: inline-block;
     }
 
-    .foot.container a{
+    .foot > .container a{
             display: inline-block;
     }
         

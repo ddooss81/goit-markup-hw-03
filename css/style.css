@@ -107,14 +107,13 @@ header  {
     .nav_list:hover, .nav_list:focus {
             color: #404bbf
         }
-    address{
-        margin-right: auto;   
-        margin-left: auto;}
+    address{   
+        margin-left: auto;
+    }
 
     .address_style {
             display: flex;
-            margin-right: auto;
-            /*margin-left: auto;*/
+            margin-left: auto;
             gap: 40px;
             line-height: 24px;
             letter-spacing: 0.02em;

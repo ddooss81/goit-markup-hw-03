@@ -108,7 +108,7 @@ header  {
             color: #404bbf
         }
     address{   
-        margin-left: auto;
+            margin-left: auto;
     }
 
     .address_style {
@@ -117,12 +117,18 @@ header  {
             gap: 40px;
             line-height: 24px;
             letter-spacing: 0.02em;
+    }
+
+    .address_style a {
             color: rgba(67, 68, 85, 1);
             text-decoration: none;
             font-style: normal;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            
     }
 
-    .address_style:hover, .address_style:focus {
+    .address_style a:hover, .address_style a:focus {
         color: #404bbf;
     }
 
@@ -144,6 +150,7 @@ header  {
         letter-spacing: 0.02em;
         line-Height: 1.07;
         text-align: center;
+        margin-bottom: 48px;
         }
 
     .class_botoom {
